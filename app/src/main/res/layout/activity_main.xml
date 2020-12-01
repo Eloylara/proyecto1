@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ver_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:onClick="verLista"
+        android:text="Ver su Cotizacion" />
+
+    <Button
+        android:id="@+id/botonNuevo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        android:onClick="ingresarNuevo"
+        android:text="Ingresar Otro Componente" />
+
+    <Button
+        android:id="@+id/botonEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="236dp"
+        android:onClick="eliminarComprados"
+        android:text="Eliminar De la cotizacion" />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoProductoActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese un Componente nuevo"
+        />
+    <EditText
+        android:id="@+id/ingresarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre del componente"
+        />
+    <EditText
+        android:id="@+id/ingresarCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Cantidad"
+        />
+    <Spinner
+        android:id="@+id/ingresarExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/extra"
+        />
+    <EditText
+        android:id="@+id/otroExtra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Otro Extra"
+        />
+    <Button
+        android:id="@+id/botonIngresarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Producto"
+        android:onClick="ingresarProducto"
+        />
+
+
+</LinearLayout>

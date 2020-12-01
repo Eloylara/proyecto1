@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PCfactory</string>
+    <string-array name="extra">
+        <item>Extras para tu componente</item>
+        <item>Estuche</item>
+        <item>Accesotios</item>
+        <item>Repuestos</item>
+    </string-array>
+</resources>
